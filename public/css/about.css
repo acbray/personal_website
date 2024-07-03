@@ -1,1 +1,8 @@
+.contact-redirect {
+  text-decoration: none;
+  color: inherit;
+}
 
+.contact-redirect:hover {
+  color: #e96f85;
+}
