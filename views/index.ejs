@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <%- include('./partials/head.ejs') %>
-  <body class="position-relative" data-bs-spy="scroll">
+  <body
+    class="position-relative"
+    data-bs-spy="scroll"
+    data-target="#navbar"
+    data-offset="0"
+  >
     <%- include('./partials/navbar.ejs') %>
-    <div data-spy="scroll" data-target="#navbar" data-offset="0">
-      <%- include('./partials/home.ejs') %> <%- include('./partials/about.ejs')
-      %> <%- include('./partials/contact.ejs') %>
-    </div>
+    <%- include('./partials/home.ejs') %> <%- include('./partials/about.ejs') %>
+    <%- include('./partials/contact.ejs') %>
     <%- include('./partials/scripts.ejs') %>
   </body>
 </html>

@@ -1,5 +1,4 @@
 var express = require("express");
-const { error } = require("jquery");
 var router = express.Router();
 var nodemailer = require("nodemailer");
 
